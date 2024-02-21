@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    border: 4px solid black;
+    padding: 3px;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    background-color: darkorchid;
+
+}
+.box{
+    border: 1px solid black;
+    display: grid;
+    background-color: rgb(224, 125, 145);
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
